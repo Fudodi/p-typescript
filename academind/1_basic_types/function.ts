@@ -14,3 +14,7 @@ function addAndHandle(num: number, callback: (num:number) => void): number {
 const arrowFunc = (num: number, str: string): void => {
     console.log(num + str);
 }
+
+const anotherFunc : (a: number, b: string) => void = (a, b) => {
+    console.log(a + b);
+}
